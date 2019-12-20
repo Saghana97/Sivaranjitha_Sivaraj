@@ -40,7 +40,7 @@ body {
 .leftheader{
     padding:30px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -260,4 +260,14 @@ border-radius: 2px;
     text-align: right;
     padding-right: 10px ;
     padding-bottom: 20px;
+}
+.sub2{
+    display: flex;
+}
+#sub2{
+    display: flex;
+    padding:60px;
+    border: 2px solid  rgba(163, 170, 184, 0.55);
+    margin:20px;
+    
 }
