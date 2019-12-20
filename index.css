@@ -218,7 +218,7 @@ border-radius: 2px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width:220px;        
+    width:220px;    
 }
 .imgtxt{
     font-weight: 600;
