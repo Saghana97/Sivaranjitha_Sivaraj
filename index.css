@@ -4,6 +4,7 @@ body {
     line-height: 1.43;
     color: #29303b;
     box-sizing: content-box;
+    margin: 0px;
 }
 .header{
     display: flex;
@@ -72,10 +73,73 @@ margin: 3px;
 border-radius: 2px;
 }
 .maincontent{
-    background-image: url("https://i.udemycdn.com/notices/home_banner/image/9c617d0a-1a3a-43eb-8b1b-c87e24e072b2.jpg");
+    background-image: url(https://i.udemycdn.com/notices/home_banner/image/048e0cdc-3e71-47dc-ae30-e9ac7a3504b5.jpg);
     height: 512px;
     width:auto;
+    display: flex;
+    align-items: flex-end;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 24px;
+    font-family:Helvetica,Arial,sans-serif;
 }
+
 .best{
-    align-items: center;
+    width:700px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 4px rgba(41,48,59,.55);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+.imgcnt{
+    box-sizing: content-box;
+    max-width: 350px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    width: 700px;
+}
+.imgtext{
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.61;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(41,48,59,.55);
+    width: 450px;
+}
+.inputsearch{
+    display: flex;
+    height: 50px;
+    width: 450px;
+   
+}
+.inputsearch button{
+    height: 50px;
+    border: none;
+    width: 50px;
+    background-color: #fff;
+}
+.inputsearch input{
+    background-color: #fff;
+    border: none;
+    font-size: 20px; 
+    padding: 11px 17px;
+    font-weight: 100;
+}
+.sub1{
+    box-sizing: border-box;
+}
+.contain{
+    display: block;
+    background: linear-gradient(-45deg,#EC5252 0%,#6E1A52 100%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sidebar{
+    margin: 30px auto;
 }
