@@ -229,6 +229,7 @@ border-radius: 2px;
     width: 240px;
     padding:10px;
     box-sizing: border-box;
+    text-overflow:ellipsis;
 }
 .career{
     font-size: 12px;
@@ -237,4 +238,19 @@ border-radius: 2px;
 }
 .checked{
     color: orange;
+}
+.stars
+{
+    padding:10px
+}
+#star{
+    font-weight: 600;
+    color: #505763;
+    font-size:small;
+}
+#count{
+    font-size: 12px;
+    font-weight: 400;
+    color: #686f7a;
+    margin-left: 5px;
 }
