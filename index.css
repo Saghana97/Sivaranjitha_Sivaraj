@@ -5,10 +5,10 @@ body {
     color: #29303b;
     box-sizing: content-box;
     margin: 0px;
+    max-width: 1280px;
 }
 .header{
     display: flex;
-  
     align-items: center;
     background: inherit;
     box-sizing: border-box;
@@ -19,7 +19,7 @@ body {
 .outer{
     background: #fff;
     box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
-    display: block;
+    display: flex;
 }
 .logo{
     margin: 0 16px 0 0;
@@ -45,16 +45,24 @@ body {
     padding-bottom: 20px;
     text-align: center;
 }
+.search1{
+     display: inline-flex;
+     flex-direction:row;
+     background:#f1f1f0;
+}
+.search1 button{
+    background: none;
+    border: none;
+   
+}
 .search{
-     
-    background:#f1f1f0;
+  
     border-color: transparent;
-    border-bottom-left-radius: 2px;
-    border-top-left-radius: 2px;
     font-size: 13px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 425px;
+
 }
 
 .btnback:hover{
@@ -67,7 +75,7 @@ body {
     margin-left:45px;
 }
 .btn{
-widows: 90px; 
+
 padding:13px 13px 13px 13px;
 margin: 3px; 
 border-radius: 2px;
@@ -133,13 +141,100 @@ border-radius: 2px;
 }
 .sub1{
     box-sizing: border-box;
+  
+    margin-top: -30px;
 }
 .contain{
     display: block;
     background: linear-gradient(-45deg,#EC5252 0%,#6E1A52 100%);
     padding-left: 15px;
+    height: 80px;
+   
     padding-right: 15px;
 }
 .sidebar{
     margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.sidetext{
+    color: #fff;
+    display: inline-flex;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 460px auto;
+    height: 470px;
+
+}
+.boldtext{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.47em;
+}
+.left{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+}
+.subtext{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.typelist{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.typelist button{
+    background: none;
+    border: none;
+    padding: 20px;
+    color: #14171c;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.35;
+}
+.typelist button:hover{
+    cursor: pointer;
+}
+.rightgrid{
+    display: flex;
+    flex-direction: row;
+}
+.imgflex{
+    margin:10px;
+    border: 2px solid  rgba(163, 170, 184, 0.55);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.imgtxt{
+    font-weight: 600;
+    height: 42px;
+    font-size: 15px;
+    color: #29303b;
+    margin-bottom: 10px;
+    width: 240px;
+    padding:10px;
+    box-sizing: border-box;
+}
+.career{
+    font-size: 12px;
+    padding:10px;
+    color: #686f7a;
+}
+.checked{
+    color: orange;
 }
