@@ -14,7 +14,7 @@
     display: flex;
 }
 .logo{
-    margin: 0 16px 0 0;
+   
     margin-top: -10px;
 }
 .main{
@@ -71,4 +71,7 @@
 padding:13px 13px 13px 13px;
 margin: 3px; 
 border-radius: 2px;
+}
+button{
+    outline:none;
 }

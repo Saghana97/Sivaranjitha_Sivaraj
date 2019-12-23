@@ -4,7 +4,8 @@
         <link rel="shortcut icon" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-60x60.png">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="header.css">
-        
+        <script src="button.js"></script>
+        <script src="modal.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -145,37 +146,37 @@
                            <div class="upper">
                                <div class="typelist">
                                    <div>
-                                    <button style="border-bottom:6px solid  #007791;">
+                                    <button class="bt "id="line1"  onclick="border1(0)">
                                             Business  
                                     </button> 
                                    </div>
                                    <div>
-                                    <button>
+                                    <button class="bt" onclick="border1(1)">
                                             Design
                                     </button>
                                   </div>
                                   <div>
-                                    <button>
+                                    <button class="bt" onclick="border1(2)">
                                             Photography
                                     </button>
                                   </div>
                                   <div>
-                                    <button>
+                                    <button class="bt" onclick="border1(3)">
                                             Development
                                     </button>
                                   </div>
                                   <div>
-                                    <button>
+                                    <button class="bt" onclick="border1(4)">
                                             Marketing
                                     </button>
                                   </div>
                                   <div>
-                                    <button>
+                                    <button class="bt" onclick="border1(5)">
                                             IT & Software
                                     </button>
                                   </div>
                                   <div>
-                                    <button>
+                                    <button class="bt" onclick="border1(6)">
                                             Personal Development
                                     </button>
                                   </div>
@@ -188,7 +189,12 @@
                                                 &#10094;
                                         </button>
                                     </div>
-                                   <div  class="rightgrid1">                                        
+                                   <div  class="rightgrid1"> 
+                                       <div class="modal">
+                                           <span>
+                                               Course 2019
+                                           </span>
+                                       </div>                                       
                                       <div class="rightgrid" id="scroll1">
                                             <div class="imgflex">
                                                     <div>
@@ -710,8 +716,85 @@
                        </div>
                    </div> 
                </div>
-            
+               <div class="mainfooter">
+                    <div class="footer">
+                            <ul>
+                                <li>
+                                    <a id="footbold">
+                                        Udemy for Business
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="footbold">
+                                        Teach on Udemy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Udemy app
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        About us
+                                    </a>
+                                </li>
+                                <li>
+                                   <a> Careers</a>
+                                </li>
+                                <li>
+                                    <a>Blog</a>
+                                </li>
+                                <li>
+                                    <a>Help and Support</a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Afflicate
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        SItemap
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Featured courses
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>   
+                    
+                          
+               </div>
+            <div class="end">
+                <div  class="endsub1"style="display: inline-flex;">
+                       <div>
+                            <img class="logo" src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" alt="Udemy" width="110" height="32">
+                       </div>
+                       <div>
+                            <span class="copyright">
+                                    Copyright © 2019 Udemy, Inc. 
+                            </span>
+                       </div> 
+                </div>
+                <div class="endsub2">
+                    <ul>
+                        <li>
+                            <a>
+                                Terms
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Privacy Policy and Cookie Policy
+                            </a>
+                        </li>
+                    </ul>
 
+                </div>
+            </div>
 
 
         </div>
