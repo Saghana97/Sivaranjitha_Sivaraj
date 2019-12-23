@@ -146,8 +146,8 @@ body {
     border: 2px solid  rgba(163, 170, 184, 0.55);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 220px;
+    justify-content: space-around;
+    width: 200px;
    
 }
 .imgtxt{
@@ -219,4 +219,35 @@ body {
     font-weight: 400;
     line-height: 1.47em;
     color: #505763;
+}
+.line{
+    background: linear-gradient(-45deg,#EC5252 0%,#6E1A52 100%);
+    height: 6px;
+}
+.arrow{
+    margin-top:150px;
+    margin-left:-20px;
+}
+.arrow button{
+    border-radius: 50%;
+    height:48px;
+    width:48px;
+   border: 2px solid ;
+    background: #fff;
+}
+.personalised{
+    height: 500px;
+    width:100%;
+    background: #29303b;
+
+}
+.iconflex{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.rightgrid1{
+    display: flex;
+    overflow: hidden;
+    width:640px;
 }
