@@ -378,3 +378,7 @@ text-align: center;
     color: #fff;
     position: absolute;
 }
+.listmodal{
+    display: flex;
+    justify-content: space-between;
+}
