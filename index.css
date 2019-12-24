@@ -329,6 +329,32 @@ text-align: center;
 }
 .modal{
     display: none;
-    height: 500px;
-    width:400px;
+    width:300px;
+    flex-direction: column;
+    border:2px solid #f1f1f0;
+   position: absolute;
+    z-index: 0;
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.last
+{
+    line-height: 1.43;
+    font-size:13px;
+    color: #686f7a;
+}
+.red{
+    display: flex;
+    justify-content: space-between;
+}
+.red button{
+    color: #fff;
+    text-align: center;
+    width:150px;
+    height: 30px;
+    font-size: 16px;
+    border:none;
+    background-color: red;
 }

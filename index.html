@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="header.css">
         <script src="button.js"></script>
-        <script src="modal.js"></script>
+      
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -139,10 +139,10 @@
                                <div class="subtext">
                                     Choose from over 100,000 online video courses with new additions published every month
                                </div>
-                           </div>
-
+                           </div> 
                        </div>
                        <div class="right">
+                         
                            <div class="upper">
                                <div class="typelist">
                                    <div>
@@ -183,20 +183,40 @@
                                 </div>
 
                            </div>
+                            
                           <div style="display: inline-flex;">
+                                <div id="modals" class="modal">
+                                        <span class="last">
+                                         Last updated: 12/2019
+                                        </span>
+                                        <div class="imgtxt" style="overflow: unset; padding:0px;padding-top: 10px;">
+                                         The Complete Financial Analyst Course 2019
+                                        </div>
+                                        <div class="last" style="font-size: 13.5px;">
+                                         Excel, Accounting, Financial Statement Analysis, Business Analysis, Financial Math, PowerPoint: Everything is Included!<br/><br>
+                                        </div>
+                                        <div class="last" style="font-size: 12.5px;">
+                                         Work comfortably with Microsoft Excel
+                                         Format spreadsheets in a professional way
+                                         Be much faster carrying out regular tasks
+                                        </div>
+                                        <div class="red">
+                                            <button>
+                                                Add to cart
+                                            </button>
+                                            <div>
+                                                <i class="fa fa-heart" style="font-size: 17px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>   
                                 <div class="arrow" id="scrollprev" >
                                         <button id="prev">
                                                 &#10094;
                                         </button>
                                     </div>
-                                   <div  class="rightgrid1"> 
-                                       <div class="modal">
-                                           <span>
-                                               Course 2019
-                                           </span>
-                                       </div>                                       
+                                   <div  class="rightgrid1">                                  
                                       <div class="rightgrid" id="scroll1">
-                                            <div class="imgflex">
+                                            <div class="imgflex"  id="modal1">
                                                     <div>
                                                         <img src="https://i.udemycdn.com/course/240x135/648826_f0e5_4.jpg" width="200px" height="135">
                                                     </div>
@@ -219,7 +239,7 @@
                                                         ₹12,480
                                                     </div>
                                                </div>
-                                               <div class="imgflex">
+                                               <div class="imgflex"  id="modal2">
                                                     <div>
                                                         <img src="https://i.udemycdn.com/course/240x135/321410_d9c5_4.jpg"  width="200px"  height="135">
                                                     </div>
@@ -243,7 +263,7 @@
                                                 </div>
                                                                             
                                                </div>
-                                               <div class="imgflex">
+                                               <div class="imgflex"  id="modal3">
                                                     <div>
                                                         <img src="https://i.udemycdn.com/course/240x135/864146_dbd7_10.jpg"  height="135" width="200px">
                                                     </div>
@@ -490,7 +510,7 @@
                                    </div>
                           </div>
                        </div>
-                    
+                     
                    </div>
                    <div class="sub2">
                        <div id="sub2">
@@ -800,5 +820,6 @@
         </div>
         <input type="hidden" id="ip" value="0">
         <script src="index.js"></script>
+        <script src="modal.js"></script>
     </body>
 </html>
