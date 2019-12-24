@@ -48,3 +48,22 @@ document.getElementById("teach").addEventListener("mouseover",function(){
     document.getElementById("teachmodal").style.display="block";
    
 });
+
+
+document.getElementById("cat").addEventListener("click",function(){
+    document.getElementById("categorymodal").style.display="flex";
+});
+
+document.getElementById("out").addEventListener("click",function(){
+    document.getElementById("categorymodal").style.display="none";
+});
+
+document.getElementById("development").addEventListener("mouseover",function(){
+   
+    document.getElementById("develop").style.display="flex";
+    document.getElementById("categorymodal").style.display="flex";
+});
+
+document.getElementById("development").addEventListener("click",function(){
+    document.getElementById("develop").style.display="none";
+});

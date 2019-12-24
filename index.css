@@ -129,7 +129,7 @@ body {
 .rightgrid{
     display: flex;
     flex-direction: row;
-    transition-duration: 0.25s;
+    transition-duration: 1.25s;
 }
 .imgflex{
     margin:5px;
@@ -378,7 +378,44 @@ text-align: center;
     color: #fff;
     position: absolute;
 }
+#categorymodal{
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    padding:10px;
+    margin-left:150px;
+    background: #f1f1f0;
+    width:300px;
+    
+}
+#categorymodal ul {
+    padding-inline-start: 0px;
+}
 .listmodal{
     display: flex;
+    width:300px;
     justify-content: space-between;
+    padding: 5px;
+    
+}
+.listmodal img{
+    width: 24px;
+    height: 24px;
+}
+#develop{
+    
+        display: none;
+        position: absolute;
+        margin-top: -20px;
+        padding:10px;
+        margin-left:470px;
+        background: #f1f1f0;
+        width:170x;
+        
+    
+}
+#develop .listmodal{
+    display: flex;
+    justify-content: space-between;
+    
 }
