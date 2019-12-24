@@ -358,3 +358,23 @@ text-align: center;
     border:none;
     background-color: red;
 }
+#udemymodal{
+    display: none;
+    width: 300px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: -368px;
+    margin-left:700px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 1.83;
+}
+#udemymodal span{
+    color: #007791;    
+}
+#teachmodal{
+    display: none;
+    color: #fff;
+    position: absolute;
+}

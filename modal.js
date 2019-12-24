@@ -26,3 +26,25 @@ document.getElementById("modal3").addEventListener("mouseout",function(){
     document.getElementById("modals").style.display="none";
    
 });
+
+
+
+document.getElementById("udemy").addEventListener("mouseout",function(){
+    document.getElementById("udemymodal").style.display="none";
+   
+});
+
+document.getElementById("udemy").addEventListener("mouseover",function(){
+    document.getElementById("udemymodal").style.display="block";
+   
+});
+
+document.getElementById("teach").addEventListener("mouseout",function(){
+    document.getElementById("teachmodal").style.display="none";
+   
+});
+
+document.getElementById("teach").addEventListener("mouseover",function(){
+    document.getElementById("teachmodal").style.display="block";
+   
+});
