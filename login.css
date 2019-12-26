@@ -1,0 +1,38 @@
+.lines{
+    display: flex;
+    flex-direction: row;
+    width:300px;
+    justify-content: space-between;
+}
+.main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+
+}
+.lin{
+    display:flex;
+    justify-content: space-between;
+}
+
+#links{
+    text-decoration: none;
+    
+}
+
+form{
+    color:#fff;
+    background-image: url(https://i.udemycdn.com/notices/home_banner/image/048e0cdc-3e71-47dc-ae30-e9ac7a3504b5.jpg);
+    padding: 150px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.head{
+   text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
