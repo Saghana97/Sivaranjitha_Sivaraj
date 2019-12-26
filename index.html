@@ -20,7 +20,7 @@
                             <div class="leftheader">
                                 <div id="cat">
                                     <button class="btnback">
-                                       <i class="fa fa-th" style="color:#8a92a3;"></i>&nbspCategories    
+                                       <i class="fa fa-th" "></i>&nbspCategories    
                                     </button>
                                 </div>
                                 <div>
@@ -28,7 +28,7 @@
                                 </div>
                                    <div class="search1">
                                        <button>
-                                            <input  class="search"name="q" maxlength="200" placeholder="Search for anything" autocomplete="off" value=""> 
+                                            <input  class="search" id="myInput"name="q" maxlength="200" placeholder="Search for anything" autocomplete="off" onkeyup="myFunction()"> 
                                             <i class="fa fa-search" style="color: red;"></i>
                                         </button> 
                                    </div>
@@ -36,13 +36,13 @@
                                 
                             </div>
                             <div class="rightheader">
-                                <div>
+                                <div class="udemy">
                                     <div id="udemy">
                                         <a>Udemy for Business&nbsp;&nbsp;&nbsp;</a>
                                     </div>
                                    
                                 </div>
-                                <div>
+                                <div class="teach">
                                     <div id="teach">
                                         <a>Teach on Udemy</a>
                                     </div>
@@ -68,29 +68,31 @@
             </div>
                <div class="maincon">
                     
-                    <div id="categorymodal">
-                            <div>
-                                <ul>
+                    <div id="categorymodal" class="wide">
+                            <div >
+                                <ul id="mainlist">
                                     <li class="listmodal" id="development">
                                         <div>
                                             <img src="category/1.png">
                                         </div>
                                         <div>
+                                           <a>
                                             Development
+                                           </a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
-                                    <li class="listmodal">
+                                    <li class="listmodal" id="bus">
                                         <div>
                                             <img src="category/2.png">
                                         </div>
                                         <div>
-                                            Business
+                                            <a>Business</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -98,10 +100,10 @@
                                             <img src="category/3.png">
                                         </div>
                                         <div>
-                                            Finance & Accounting
+                                           <a> Finance & Accounting</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -109,10 +111,10 @@
                                             <img src="category/4.png">
                                         </div>
                                         <div>
-                                            IT & Software
+                                            <a>IT & Software</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -120,10 +122,10 @@
                                             <img src="category/5.png">
                                         </div>
                                         <div>
-                                            Office Productivity
+                                            <a>Office Productivity</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -131,10 +133,10 @@
                                             <img src="category/6.png">
                                         </div>
                                         <div>
-                                           Personal Development
+                                          <a> Personal Development</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -142,10 +144,10 @@
                                             <img src="category/7.png">
                                         </div>
                                         <div>
-                                            Design
+                                            <a>Design</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -153,10 +155,10 @@
                                             <img src="category/8.png">
                                         </div>
                                         <div>
-                                            Marketing
+                                            <a>Marketing</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -164,10 +166,10 @@
                                              <img src="category/9.png">
                                         </div>
                                         <div>
-                                            Lifestyle
+                                            <a>Lifestyle</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -175,10 +177,10 @@
                                             <img src="category/10.png">
                                         </div>
                                         <div>
-                                           Photography
+                                           <a>Photography</a>
                                         </div>
                                             <div class="side">
-                                            >
+                                                &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -186,10 +188,10 @@
                                             <img src="category/11.png">
                                         </div>
                                         <div>
-                                            Health & Fitness
+                                            <a>Health & Fitness</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -197,10 +199,10 @@
                                             <img src="category/12.png">
                                         </div>
                                         <div>
-                                            Music
+                                            <a>Music</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                     <li class="listmodal">
@@ -208,10 +210,10 @@
                                             <img src="category/13.png">
                                         </div>
                                         <div>
-                                            Teaching & Academics
+                                            <a>Teaching & Academics</a>
                                         </div>
                                         <div class="side">
-                                            >
+                                            &#10095;
                                         </div>
                                     </li>
                                 </ul>
@@ -221,124 +223,255 @@
 
 
 
-                        <div id="develop">
+                        <div id="develop" class="wide">
                                 <div>
                                     <ul>
                                         <li class="listmodal">
-                    
                                             <div>
-                                                Development
+                                                All Development
+                                            </div>
+                                        </li>
+                                        <li class="listmodal" id="web">
+                                           
+                                            <div>
+                                               Web Development 
                                             </div>
                                             <div class="side">
-                                                >
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal" id="data">
+                                           
+                                            <div>
+                                               Data Science
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
                                             </div>
                                         </li>
                                         <li class="listmodal">
                                            
                                             <div>
-                                                Business
+                                               Mobile Apps
                                             </div>
                                             <div class="side">
-                                                >
-                                            </div>
-                                        </li>
-                                        <li class="listmodal">
-                                           
-                                            <div>
-                                                Finance & Accounting
-                                            </div>
-                                            <div class="side">
-                                                >
-                                            </div>
-                                        </li>
-                                        <li class="listmodal">
-                                           
-                                            <div>
-                                                IT & Software
-                                            </div>
-                                            <div class="side">
-                                                >
+                                                &#10095;
                                             </div>
                                         </li>
                                         <li class="listmodal">
                                           
                                             <div>
-                                                Office Productivity
+                                                Programming Languages
                                             </div>
                                             <div class="side">
-                                                >
+                                                &#10095;
                                             </div>
                                         </li>
                                         <li class="listmodal">
 
                                             <div>
-                                               Personal Development
+                                               Game Development
                                             </div>
                                             <div class="side">
-                                                >
+                                                &#10095;
                                             </div>
                                         </li>
                                         <li class="listmodal">
                                            
                                             <div>
-                                                Design
+                                               Databases
                                             </div>
                                             <div class="side">
-                                                >
+                                                &#10095;
                                             </div>
                                         </li>
                                         <li class="listmodal">
                                             
                                             <div>
-                                                Marketing
+                                                Software Testing
                                             </div>
                                             <div class="side">
-                                                >
+                                                &#10095;
                                             </div>
                                         </li>
                                         <li class="listmodal">
                                             
                                             <div>
-                                                Lifestyle
+                                                Software Engineering
                                             </div>
                                             <div class="side">
-                                                >
+                                                &#10095;
                                             </div>
                                         </li>
                                         <li class="listmodal">
                                            
                                             <div>
-                                               Photography
+                                               Development Tools
                                             </div>
-                                                <div class="side">
-                                                >
+                                            <div class="side">
+                                                &#10095;
                                             </div>
                                         </li>
                                         <li class="listmodal">
                                           
                                             <div>
-                                                Health & Fitness
+                                                E-Commerce
                                             </div>
                                             <div class="side">
-                                                >
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="business" class="wide">
+                                <div>
+                                    <ul>
+                                        <li class="listmodal">
+                    
+                                            <div>
+                                               All Business
                                             </div>
                                         </li>
                                         <li class="listmodal">
                                            
                                             <div>
-                                                Music
+                                                Finance
                                             </div>
                                             <div class="side">
-                                                >
+                                                &#10095;
                                             </div>
                                         </li>
                                         <li class="listmodal">
                                            
                                             <div>
-                                                Teaching & Academics
+                                                Entrepreneu>rship
                                             </div>
                                             <div class="side">
-                                                >
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                                Communication
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                          
+                                            <div>
+                                                Management
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+
+                                            <div>
+                                                Sales
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                               Strategy
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                            
+                                            <div>
+                                                Operations
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                            
+                                            <div>
+                                                Project Management
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                               Business Law
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                          
+                                            <div>
+                                                Data & Analysis
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                                Home Business
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                                Human Resources
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                               Industry
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li> <li class="listmodal">
+                                           
+                                            <div>
+                                                Media
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li> <li class="listmodal">
+                                           
+                                            <div>
+                                                Real Estate
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
+                                            </div>
+                                        </li> <li class="listmodal">
+                                           
+                                            <div>
+                                                Other
+                                            </div>
+                                            <div class="side">
+                                                &#10095;
                                             </div>
                                         </li>
                                     </ul>
@@ -346,6 +479,138 @@
                             </div>
 
 
+                            <div id="webdevelop" class="wide">
+                                <div>
+                                    <ul>
+                                        <li class="listmodal">
+                                            <div>
+                                                <b>Popular Topics</b>
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                              All Web Development
+                                            </div>
+                                         </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                              Javascript
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                               Angular
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                          
+                                            <div>
+                                                React
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+
+                                            <div>
+                                               CSS
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                               Node.js
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                            
+                                            <div>
+                                               PHP
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                            
+                                            <div>
+                                                Vue.js
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                              Django
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <div id="datascience" class="wide">
+                                <div>
+                                    <ul>
+                                        <li class="listmodal">
+                                            <div>
+                                                <b>Popular Topics</b>
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                              All Data Science
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                               Machine Learning
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                               Python
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                          
+                                            <div>
+                                                Deep Learning
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+
+                                            <div>
+                                               Data Analysis
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                               Artificial Intelligence
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                            
+                                            <div>
+                                               TensorFlow
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                            
+                                            <div>
+                                               R
+                                            </div>
+                                        </li>
+                                        <li class="listmodal">
+                                           
+                                            <div>
+                                               Neural Networks
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
 
 
 
@@ -1122,5 +1387,6 @@
         <input type="hidden" id="ip" value="0">
         <script src="index.js"></script>
         <script src="modal.js"></script>
+        <script src="search.js"></script>
     </body>
 </html>

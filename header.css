@@ -7,11 +7,14 @@
     height: 55px;
     padding: 20px;
     font-size: 13px;
+    width:100vw;
+    justify-content: space-between;
 }
 .outer{
     background: #fff;
     box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
     display: flex;
+
 }
 .logo{
    
@@ -26,6 +29,7 @@
     background: transparent;
     border:none;
     text-align: center;
+    outline: none;
     padding-top: 12px;
     padding-bottom: 10px;
 }
@@ -38,23 +42,24 @@
     text-align: center;
 }
 .search1{
-     display: inline-flex;
-     flex-direction:row;
+     display: flex;
+     outline: none;
      background:#f1f1f0;
 }
 .search1 button{
     background: none;
     border: none;
+    outline: none;
    
 }
 .search{
   
+    outline: none;
     border-color: transparent;
     font-size: 13px;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 425px;
-
+   
 }
 
 .btnback:hover{

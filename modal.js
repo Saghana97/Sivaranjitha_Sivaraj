@@ -50,20 +50,55 @@ document.getElementById("teach").addEventListener("mouseover",function(){
 });
 
 
-document.getElementById("cat").addEventListener("click",function(){
+document.getElementById("cat").addEventListener("mouseover",function(){
     document.getElementById("categorymodal").style.display="flex";
 });
 
 document.getElementById("out").addEventListener("click",function(){
     document.getElementById("categorymodal").style.display="none";
+    document.getElementById("business").style.display="none";
+    document.getElementById("develop").style.display="none";
+    document.getElementById("webdevelop").style.display="none";
+    document.getElementById("datascience").style.display="none";
 });
 
 document.getElementById("development").addEventListener("mouseover",function(){
-   
     document.getElementById("develop").style.display="flex";
     document.getElementById("categorymodal").style.display="flex";
+    document.getElementById("business").style.display="none";
 });
 
 document.getElementById("development").addEventListener("click",function(){
     document.getElementById("develop").style.display="none";
+    document.getElementById("webdevelop").style.display="none";
+    document.getElementById("datascience").style.display="none";
+    document.getElementById("develop").style.display="none";
+    document.getElementById("webdevelop").style.display="none";
+});
+
+
+
+document.getElementById("bus").addEventListener("mouseover",function(){
+    document.getElementById("develop").style.display="none";
+    document.getElementById("webdevelop").style.display="none";
+    document.getElementById("datascience").style.display="none";
+    document.getElementById("categorymodal").style.display="flex";
+    document.getElementById("business").style.display="flex";
+});
+
+document.getElementById("bus").addEventListener("click",function(){
+    document.getElementById("business").style.display="none";
+    document.getElementById("webdevelop").style.display="none";
+    document.getElementById("datascience").style.display="none";
+
+});
+
+document.getElementById("web").addEventListener("mouseover",function(){
+document.getElementById("webdevelop").style.display="flex";
+document.getElementById("datascience").style.display="none";
+});
+
+document.getElementById("data").addEventListener("mouseover",function(){
+    document.getElementById("webdevelop").style.display="none";
+    document.getElementById("datascience").style.display="flex";
 });
