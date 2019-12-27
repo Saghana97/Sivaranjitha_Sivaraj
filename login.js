@@ -9,9 +9,6 @@ function login()
 {
   var usernamel = document.getElementById("userlogin").value;
   var passwordl = document.getElementById("passwordlogin").value;
-  //   console.log(username);
- 
-
   console.log(tasks.length);
   var userExit = false;
   var Valid = false;
