@@ -39,15 +39,6 @@ document.getElementById("udemy").addEventListener("mouseover",function(){
    
 });
 
-document.getElementById("teach").addEventListener("mouseout",function(){
-    document.getElementById("teachmodal").style.display="none";
-   
-});
-
-document.getElementById("teach").addEventListener("mouseover",function(){
-    document.getElementById("teachmodal").style.display="block";
-   
-});
 
 
 document.getElementById("cat").addEventListener("mouseover",function(){

@@ -5,13 +5,13 @@
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="header.css">
         <script src="button.js"></script>
-      
+        <script src="login.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
+    <body onload="loads()">
         <div class="main">
             <div class="outer">
-                    <div class="header">
+                    <div class="header" id="header">
                             <div class="udemylogo">
                                 <a href="" target="_self" class ="logo">
                                         <img class="logo" src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" alt="Udemy" width="110" height="32">
@@ -35,7 +35,7 @@
                                   
                                 
                             </div>
-                            <div class="rightheader">
+                            <div class="rightheader" id="rightheader">
                                 <div class="udemy">
                                     <div id="udemy">
                                         <a>Udemy for Business&nbsp;&nbsp;&nbsp;</a>
@@ -52,17 +52,18 @@
                                     <img  class=" btnback"src ="shopping-cart.png" height="20" width="20">
                                 </div>
                                 
-                                <div>
+                                <div id="user">
                                     <button class="btn" style="background: transparent;border:1px solid  #000;">
                                        <a href="login.html" style="text-decoration: none;color: #000;">Log In</a>
                                     </button>
                                 </div>
 
-                                <div>
+                                <div id="user1">
                                     <button class="btn" style="background: red; border: 1px solid red;">
                                       <a style="color: #fff;"href="signup.html" style="text-decoration: none;">Sign Up</a>
                                     </button>
                                 </div>
+                               
                             </div>
                         </div>
             </div>
@@ -1384,9 +1385,9 @@
 
 
         </div>
-        <input type="hidden" id="ip" value="0">
         <script src="index.js"></script>
         <script src="modal.js"></script>
         <script src="search.js"></script>
+        <script src="login.js"></script>
     </body>
 </html>
