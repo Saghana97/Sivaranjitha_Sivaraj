@@ -1,0 +1,100 @@
+<html>
+    <head>
+<link rel="stylesheet" href="index.css">
+    </head>
+    <body id="main">
+          <script src="js/game.js"></script>
+          <script src="js/book.js"></script>
+          <script src="js/check.js"></script>
+          <script src="js/movie.js"></script>
+          <script src="js/name.js"></script>
+       <div>
+           <div >
+                <nav>
+                   <div class="navborder" onclick="gamelist()">
+                        GAMES
+                   </div>
+                   <div class="navborder" onclick="booklist()">
+                        BOOKS   
+                   </div>
+                   <div class="navborder" onclick="namelist()">
+                        NAMES       
+                   </div>
+                   <div class="navborder" onclick="movielist()">
+                        MOVIES
+                   </div>
+                   <div style="margin-top:20px;">
+                         <button onclick="refresh()">
+                              Reset
+                         </button>
+                   </div>
+                </nav>
+                <div id="first" >
+                     <ul id="lists">
+
+                     </ul>
+               <div class="move">
+                    <select id="s1" onclick="display1()">
+                         <option value="books">books</option>
+                         <option value="games">games</option>
+                         <option value="movies">movies</option>
+                         <option value="names">names</option>
+                    </select>
+                    <select id="s2" onclick="display2()">
+                         <option value="books">books</option>
+                         <option value="games">games</option>
+                         <option value="movies">movies</option>
+                         <option value="names">names</option>
+                    </select>
+                   
+                    <select id="s3" onclick="display3()">
+                         <option value="books">books</option>
+                         <option value="games">games</option>
+                         <option value="movies">movies</option>
+                         <option value="names">names</option>
+                    </select>
+               </div>
+              
+                </div>
+                <div class="cen">
+                    <button onclick="saves()">
+                         Done
+                    </button>
+                </div>
+                <div class="cen">
+                    <!-- <button onclick="refresh()">
+                         Refresh
+                    </button> -->
+                </div>
+               
+               
+           </div>
+       </div>
+       <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+     <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+     <script>
+       // Your web app's Firebase configuration
+          var firebaseConfig = {
+          apiKey: "AIzaSyASX_UT8We2f2xxSkG1O1K2zS7eMoehClQ",
+          authDomain: "fir-d0e79.firebaseapp.com",
+          databaseURL: "https://fir-d0e79.firebaseio.com",
+          projectId: "fir-d0e79",
+          storageBucket: "fir-d0e79.appspot.com",
+          messagingSenderId: "1038916886647",
+          appId: "1:1038916886647:web:cba3215dd6d9a84a6ce672",
+          measurementId: "G-YTYYRBLHY0"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+          
+     </script>
+   
+   
+</body>
+</html>
