@@ -3,7 +3,8 @@ import Login from '../Login/Login';
 import Signup from '../Signup/Signup';
 import Header from '../Header/Header';
 import './Main.css'
-import Logo from '../../images/Login.png'
+import ProtectedRoute from '../Header/ProtectedRoute'
+import Home from '../Home/Home'
 import {BrowserRouter as Switch,Route} from 'react-router-dom';
 class Main extends Component {
  
@@ -13,12 +14,13 @@ class Main extends Component {
       <div className="Main">
         <Header/>
        <center>
-        <div className="maincontent">
+        <div>
             <Switch>
                 <Route path="/signup" component={Signup}/>
                 <Route path="/" exact component={Login}/>
+                <ProtectedRoute exact path="/home" component={Home}/>
             </Switch>
-                <img src={Logo} alt="side"/>
+               
             
        
         </div>

@@ -13,7 +13,7 @@ function login()
   var userExit = false;
   var Valid = false;
   var images,user;
-  var i = 0;
+  var i;
   for (i = 0; i < tasks.length; i++) {
     console.log(tasks[i]);
     if (tasks[i].usr == usernamel) {
