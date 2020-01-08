@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJo5MHu2hjIhkuFG7gihZfrR6oA7o8mQsxsUwGiPLNHZW7X8xt&s">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
@@ -30,5 +31,26 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBwfPg0vKUTbbVzkxdoKApflS2gzUs_yNA",
+    authDomain: "product-59dbb.firebaseapp.com",
+    databaseURL: "https://product-59dbb.firebaseio.com",
+    projectId: "product-59dbb",
+    storageBucket: "product-59dbb.appspot.com",
+    messagingSenderId: "450573390574",
+    appId: "1:450573390574:web:7bc6a7b3091ffcc47959ff"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   </body>
 </html>

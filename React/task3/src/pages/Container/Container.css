@@ -13,6 +13,13 @@
 }
 .check{
     color:rgb(19, 82, 10);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
+}
+#staricon{
+position: absolute;
+margin-left: 220px;
+}
+.icon{
+    font-size: 15px;
 }

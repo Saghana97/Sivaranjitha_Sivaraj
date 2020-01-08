@@ -86,7 +86,7 @@ class Home extends Component {
         return (
             <div>
     <button type="button" className="add" data-toggle="modal" data-target="#myModal">Add Product</button>
-    <button className="cart" onClick={this.showCart}>Show cart</button>
+    <button className="cart" onClick={this.showCart}><a href="/cart"> Show Cart</a></button>
                     <div className="modal fade" id="myModal" role="dialog">
                         <div className="modal-dialog">
                             <div className="modal-content">
@@ -103,7 +103,7 @@ class Home extends Component {
                                     <center><button type="submit" onClick={this.modalSubmit} data-dismiss="modal" >Submit</button></center>                         
                                 </div>
                                 <div className="modal-footer">
-                                    <button type="button" data-dismiss="modal"  >Close</button>
+                                    <button type="button" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ class Home extends Component {
                 <div className="container">
                     {
                         this.state.products.map((element,i)=>(
-                            <Container image={element.img} name={element.name} price={element.price}  key={i}/>
+                            <Container image={element.img} ids={i} name={element.name} price={element.price}  key={i}/>
                         ))
                     }
                  </div>

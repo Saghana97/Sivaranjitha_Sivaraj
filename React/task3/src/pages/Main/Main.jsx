@@ -6,6 +6,7 @@ import './Main.css'
 // import ProtectedRoute from '../Header/ProtectedRoute'
 import Home from '../Home/Home'
 import {BrowserRouter as Switch,Route} from 'react-router-dom';
+import Showcart from '../Showcart/Showcart';
 class Main extends Component {
  
   render() {
@@ -19,7 +20,7 @@ class Main extends Component {
                 <Route path="/signup" exact component={Signup}/>
                 <Route path="/" exact component={Login}/>           
                 <Route path="/home" exact component={Home}/>
-
+                <Route path='/cart' exact component={Showcart}/>
 
                 {/* <ProtectedRoute component={Home} path="/home"/> */}
             </Switch>      

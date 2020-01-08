@@ -25,3 +25,6 @@ button{
 .cart{
     float: right;
 }
+.cart a{
+    color: #ffffff;
+}
