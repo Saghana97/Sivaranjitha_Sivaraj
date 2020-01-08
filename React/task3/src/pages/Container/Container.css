@@ -1,0 +1,18 @@
+.contain{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid rgb(151, 233, 140);
+    width:250px;
+    border-radius: 20px;
+}
+.images{
+    height: 100px;
+    width: auto;
+}
+.check{
+    color:rgb(19, 82, 10);
+    font-size: 17px;
+    font-weight: 700;
+}

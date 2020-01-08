@@ -1,7 +1,7 @@
 .maincontent{
     display: flex;
-    border: 2px solid rgb(151, 233, 140);
-    border-radius: 40px;
+    border: 8px solid rgb(151, 233, 140);
+    border-radius: 15px;
     width:800px;
     height: 500px;
     margin-top: 50px;

@@ -1,22 +1,13 @@
 import React from'react'
-import {Route} from 'react-router-dom'
+import {Route,Redirect} from 'react-router-dom'
 import auth from './auth'
-
-export const ProtectedRoute=({component: Component, ...rest})=>{
-    return(<div>
-        
-        <Route 
-        {...rest}
-        render={props =>{
-            if(auth.isAuthenticated ()){
-                return<Component {...props}/>
-            }
-            else{
-                props.history.push('/home');
-            }
-            
-        }}
-        />
-    </div>
+const ProtectedRoute=({component: Comp,path, ...rest})=>{
+    return(
+    <Route {...rest} path={path} render={(props) => (
+        auth.isAuthenticated() === true
+          ? <Comp {...props} />
+          : <Redirect to='/' />
+      )} />
     )
 }
+export default ProtectedRoute

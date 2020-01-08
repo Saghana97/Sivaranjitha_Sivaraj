@@ -62,7 +62,7 @@ class Signup extends Component {
             } else {
                tasks = JSON.parse(localStorage.getItem("users"));
             }
-            tasks.push({ usr: username, pass: password ,email: email});
+            tasks.push({ usr: username, pass: password ,email: email,fav:[],wish:[]});
             localStorage.setItem("users", JSON.stringify(tasks));
             alert("Signup Successful!");
             this.props.history.push('/'); 
