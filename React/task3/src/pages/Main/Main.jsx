@@ -7,6 +7,7 @@ import './Main.css'
 import Home from '../Home/Home'
 import {BrowserRouter as Switch,Route} from 'react-router-dom';
 import Showcart from '../Showcart/Showcart';
+import Favourite from '../Favourite/Favourite';
 class Main extends Component {
  
   render() {
@@ -21,7 +22,7 @@ class Main extends Component {
                 <Route path="/" exact component={Login}/>           
                 <Route path="/home" exact component={Home}/>
                 <Route path='/cart' exact component={Showcart}/>
-
+                <Route path='/favourite' exact component={Favourite}/>
                 {/* <ProtectedRoute component={Home} path="/home"/> */}
             </Switch>      
         </div>

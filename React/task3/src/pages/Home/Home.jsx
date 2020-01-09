@@ -87,6 +87,7 @@ class Home extends Component {
             <div>
     <button type="button" className="add" data-toggle="modal" data-target="#myModal">Add Product</button>
     <button className="cart" onClick={this.showCart}><a href="/cart"> Show Cart</a></button>
+    <button className="cart" style={{width:"100px"}} ><a href="/favourite"> Show Favourites</a></button>
                     <div className="modal fade" id="myModal" role="dialog">
                         <div className="modal-dialog">
                             <div className="modal-content">

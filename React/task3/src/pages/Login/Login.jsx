@@ -5,6 +5,21 @@ import '../../Components/Input/Input.css'
 import Logo from '../../images/Login.png'
 // import {Redirect} from 'react-router-dom'
 class Login extends Component {
+    // componentDidMount=()=>{
+    //             var tasks= [];
+    //             tasks.push({img:'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT1rN8et5YnMt8021mwoctULfufJbSjkeW2GJU_4Spgq40loNp0iEoE78kLd01w0wrf1K7UXTtk5ZBMD4I52OynND0cJ7KTxB4QJWs48OQBhDeVwKpG7YzU&usqp=CAc',
+    //             name:'Trolley',
+    //             price:'8000'},
+    //             {img:'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTB5C0HeFzH0ByLBNsGQM7zubckeCB0lpxiqYqCIrNLZgmabUrzBDeasFVBB4jp8wx48t8Au1jo45badwGEo_OdUBmXIxraqnAkAMR3wQmu3dftW8MuxtHB&usqp=CAc',
+    //             name:'Washing Machine',
+    //             price:'20000'},
+    //             {img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOBCUYqDzu2lgy67SBPsMcSi0zQUdXI9Y1horrNwu5HEmprXTkhA&s',
+    //             name:'Headphones',
+    //             price:'900'
+    //             });
+    //             console.log(tasks);
+    //             localStorage.setItem('products',JSON.stringify(tasks))
+    // }
     constructor(props) {
         super(props)
     
@@ -23,6 +38,7 @@ class Login extends Component {
             password:event.target.value
         })
      }
+    
      handleSubmitChange=(event)=>{
      var username=this.state.username;
      var password=this.state.password;
@@ -77,4 +93,4 @@ class Login extends Component {
     }
 }
 
-export default Login
+export default Login;

@@ -62,7 +62,11 @@ class Signup extends Component {
             } else {
                tasks = JSON.parse(localStorage.getItem("users"));
             }
-            tasks.push({ usr: username, pass: password ,email: email,fav:[],wish:[]});
+           
+            var jwt = require('jsonwebtoken');
+            var token = jwt.sign({ usr:username }, password);
+            console.log(token)
+            tasks.push({ usr: username, token: token ,email: email,fav:[],wish:[]});
             localStorage.setItem("users", JSON.stringify(tasks));
             alert("Signup Successful!");
             this.props.history.push('/'); 

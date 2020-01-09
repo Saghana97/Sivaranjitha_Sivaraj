@@ -4,3 +4,9 @@ body {
   font-family: sans-serif;
  
 }
+button a{
+  color: #ffffff;
+}
+button{
+  margin:20px;
+}
