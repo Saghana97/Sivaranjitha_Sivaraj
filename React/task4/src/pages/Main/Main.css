@@ -1,0 +1,9 @@
+.maincontent{
+    display: flex;
+    border: 8px solid rgb(151, 233, 140);
+    border-radius: 15px;
+    width:800px;
+    height: 500px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}

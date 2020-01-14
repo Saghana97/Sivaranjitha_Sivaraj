@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import './Container.css'
 import '../Home/Home.css'
 import '../../index.css'
+import { connect } from 'react-redux'
 class Container extends Component {
     constructor(props) {
         super(props)
@@ -20,6 +21,9 @@ class Container extends Component {
     
     state = { 
             }
+    componentDidMount=()=>{
+        console.log(this.props.posts);
+    }
     handleCheckboxChange = (event) =>
     { 
         this.setState({
@@ -167,6 +171,7 @@ class Container extends Component {
                 });
                 console.log("changedpro",pro);
                 localStorage.setItem("products",JSON.stringify(pro));
+            
             })
         }
         deleteItem=()=>{
@@ -181,7 +186,6 @@ class Container extends Component {
                 }
             });
             localStorage.setItem('products',JSON.stringify(pro));
-            location.reload();
         }
     render() {
        
@@ -241,5 +245,10 @@ class Container extends Component {
         )
     }
 }
+const mapStateToProps = (state) => {
+    return {
+        posts: state
+    }
+}
 
-export default Container
+export default connect(mapStateToProps) (Container)

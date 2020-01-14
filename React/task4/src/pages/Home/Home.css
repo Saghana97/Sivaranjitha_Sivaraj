@@ -1,0 +1,30 @@
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container div{
+    margin: 5px;
+}
+button{
+    border-radius: 10px;
+}
+.add{
+    width:120px;
+    margin-top: 10px;
+}
+#change{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 20px;
+}
+.cart{
+    float: right;
+}
+.cart a{
+    color: #ffffff;
+}

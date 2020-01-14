@@ -1,0 +1,17 @@
+input{
+    outline: none;
+    border: 1px solid rgb(33, 255, 4); ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 20px;
+    width:200px
+    
+}
+.submit{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(38, 131, 26);
+    color: #fff;
+    border-radius: 30px;
+}
